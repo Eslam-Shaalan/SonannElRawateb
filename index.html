@@ -4,60 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>السنن الرواتب</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="main">
-    
-    <div class="title">
-         <h1>السنن الرواتب</h1>  
+    <div class="overlay"></div>
+    <img src="images/prayer1.png" class="prayer">
+        <div class="controls">
+            <img src="images/arrow.png" id="upBtn">
+            <h3>الصلاة المفروضه</h3>
+            <img src="images/arrow.png" id="downBtn">
         </div>
-    <div class="information">
-        <div class="overlay"></div>
-
-        <img src="images/prayer1.png" class="prayer">
-        <div id="circle">
-            <div class="feature one">
-                <div>
-                    <h1>الفجر</h1>
-                    <h3>عدد الركعات </h3>
-                    <p>قبل : 2</p>
-                    <p>بعد : ــ</p>
-                </div>
-            </div>
-            <div class="feature two">
-                <div>
-                    <h1>الظهر</h1>
-                    <h3>عدد الركعات </h3>
-                    <p>قبل : 2+2</p>
-                    <p>بعد : 2</p>
-                </div>
-            </div>
-            <div class="feature three">
-                <div>
-                    <h1>المغرب</h1>
-                    <h3>عدد الركعات </h3>
-                    <p>قبل : 2</p>
-                    <p>بعد : ــ</p>
-                </div>
-            </div>
-            <div class="feature four">
-                <div>
-                    <h1>العشاء</h1>
-                    <h3>عدد الركعات </h3>
-                    <p>قبل : ــ</p>
-                    <p>بعد : 2</p>
-                </div>
-            </div>
+    <div id="circle">
+        <div class="one">
+            <h1>الفجر</h1>
+            <h3>عدد الركعات </h3>
+            <p>قبل : 2</p>
+            <p>بعد : ــ</p>
         </div>
+        <div class="two">
+            <h1>الظهر</h1>
+            <h3>عدد الركعات </h3>
+            <p>قبل : 2+2</p>
+            <p>بعد : 2</p>
+                </div>
+        <div class="three">
+            <h1>المغرب</h1>
+            <h3>عدد الركعات </h3>
+            <p>قبل : 2</p>
+            <p>بعد : ــ</p>
+                </div>
+        <div class="four">
+            <h1>العشاء</h1>
+            <h3>عدد الركعات </h3>
+            <p>قبل : ــ</p>
+            <p>بعد : 2</p>
+                </div>
+        
     </div>
     
-    <div class="controls">
-        <img src="images/arrow.png" id="upBtn">
-        <h3>الصلاة المفروضه</h3>
-        <img src="images/arrow.png" id="downBtn">
-    </div>
 </div>
 <script>
     let circle=document.getElementById("circle");
